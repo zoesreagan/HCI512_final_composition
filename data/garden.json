@@ -1,0 +1,80 @@
+{
+  "name": "Summer Garden",
+  "children": [
+    {
+      "name": "March",
+      "children": [
+        {
+          "name": "vegetables",
+          "children" : [
+            {
+              "name": "Arugula",
+              "size": 1
+            },
+            {
+              "name": "Artichoke",
+              "size": 1
+            },
+            {
+              "name": "Broccoli",
+              "size": 1
+            },
+            {
+              "name": "Cabbage",
+              "size": 1
+            },
+            {
+              "name": "Chard",
+              "size": 1
+            },
+            {
+              "name": "Cilantro",
+              "size": 1
+            },
+            {
+              "name": "Green onions",
+              "size": 1
+            },
+            {
+              "name": "Kale",
+              "size": 1
+            },
+            {
+              "name": "Lettuce",
+              "size": 1
+            },
+            {
+              "name": "Mustard Greens",
+              "size": 1
+            },
+            {
+              "name": "Onion",
+              "size": 1
+            },
+            {
+              "name": "Salad Greens",
+              "size": 1
+            },
+            {
+              "name": "Spinach",
+              "size": 1
+            }
+
+          ]
+        },
+        {
+          "name": "fruits",
+          "children": [
+            {
+              "name": "Peas",
+              "size": 1
+            }
+
+          ]
+        }
+
+      ]
+    },
+
+  ]
+}
