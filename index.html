@@ -66,7 +66,7 @@
           .attr('viewBox', `${-width / 2} ${-height / 2} ${width} ${height}`)
           .on('click', () => focusOn()); // Reset zoom on canvas click
 
-      d3.json('https://gist.githubusercontent.com/zoesreagan/a6b2dd7eac8f397703dc037bb3d9a237/raw/1251b6a59ef0dc510210726c3c824115b6ae64ca/garden.json', (error, root) => {
+      d3.json('https://gist.githubusercontent.com/zoesreagan/a6b2dd7eac8f397703dc037bb3d9a237/raw/61e101136308442ad3aa73e67df254be68aa27b6/garden.json', (error, root) => {
           if (error) throw error;
 
           root = d3.hierarchy(root);

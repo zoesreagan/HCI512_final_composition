@@ -75,6 +75,149 @@
 
       ]
     },
-
+    {
+      "name": "April",
+      "children": [
+        {
+          "name": "vegetables",
+          "children": [
+            {
+              "name": "Beets",
+              "size": 1
+            },
+            {
+              "name": "Brussel Sprouts",
+              "size": 1
+            },
+            {
+              "name": "Carrots",
+              "size": 1
+            },
+            {
+              "name": "Cauliflower",
+              "size": 1
+            },
+            {
+              "name": "Celeriac",
+              "size": 1
+            },
+            {
+              "name": "Celery",
+              "size": 1
+            },
+            {
+              "name": "Collards",
+              "size": 1
+            },
+            {
+              "name": "Dill",
+              "size": 1
+            },
+            {
+              "name": "Endive",
+              "size": 1
+            },
+            {
+              "name": "Fennel",
+              "size": 1
+            },
+            {
+              "name": "Kohlrabi",
+              "size": 1
+            },
+            {
+              "name": "Leeks",
+              "size": 1
+            },
+            {
+              "name": "Radicchio",
+              "size": 1
+            },
+            {
+              "name": "Scallions",
+              "size": 1
+            },
+            {
+              "name": "Sorrel",
+              "size": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "May",
+      "children": [
+        {
+          "name": "vegetables",
+          "children": [
+            {
+              "name": "Basil",
+              "size": 1
+            },
+            {
+              "name": "Beans",
+              "size": 1
+            },
+            {
+              "name": "Corn",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name" : "fruit",
+          "children": [
+            {
+              "name": "Cucumbers",
+              "size": 1
+            },
+            {
+              "name": "Squash",
+              "size": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "June",
+      "children": [
+        {
+          "name": "vegetables",
+          "children": [
+            {
+              "name": "Swiss Chard",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name": "fruits",
+          "children": [
+            {
+              "name": "Eggplant",
+              "size": 1
+            },
+            {
+              "name": "Melons",
+              "size": 1
+            },
+            {
+              "name": "Peppers",
+              "size": 1
+            },
+            {
+              "name": "Pumpkins",
+              "size": 1
+            },
+            {
+              "name": "Tomatoes",
+              "size": 1
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
