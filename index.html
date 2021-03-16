@@ -5,6 +5,17 @@
     <title>Final composition for HCI 512 using D3 jS</title>
     <link rel="stylesheet" href="CSS/main.css">
     <script src='https://d3js.org/d3.v4.min.js'></script>
+    <script src="https://d3js.org/d3-color.v2.min.js"></script>
+    <script src="https://d3js.org/d3-interpolate.v2.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v2.min.js"></script>
+    <script>
+
+      var yellow = d3.interpolateYlGn(0), // "rgb(255, 255, 229)"
+      yellowGreen = d3.interpolateYlGn(0.5), // "rgb(120, 197, 120)"
+      green = d3.interpolateYlGn(1); // "rgb(0, 69, 41)"
+
+    </script>
+
     </head>
 
   <body>
@@ -13,6 +24,7 @@
       <h2>This is my gardening visualization!</h2>
 
       <script>
+
       const width = window.innerWidth,
           height = window.innerHeight,
           maxRadius = (Math.min(width, height) / 2) - 5;
@@ -26,7 +38,8 @@
       const y = d3.scaleSqrt()
           .range([maxRadius*.1, maxRadius]);
 
-      const color = d3.scaleOrdinal(d3.schemeCategory20);
+      const color = d3.scaleOrdinal(d3.schemeSet3);
+
 
       const partition = d3.partition();
 
